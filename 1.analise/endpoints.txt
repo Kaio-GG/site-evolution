@@ -1,0 +1,115 @@
+/////ENDPOINTS/////
+
+
+/////ENDPOINTS-USUARIO/////
+
+
+(1)
+
+CADASTRAR NOVO USUARIO
+
+/POST         /usuario
+
+request
+{
+    "nome": "",
+    "email":"",
+    "senha":""
+}
+response
+{
+    "id": "",
+    "nome": "",
+    "email":"",
+    "senha":""
+}
+(2)
+
+LOGIN DO USUARIO
+
+/POST         /usuario/login
+
+request
+{
+    "email": "",
+    "senha": ""
+}
+
+response
+{
+    "id"   :  0,
+    "email":  "",
+    "nome" :  ""
+}
+
+/////ENDPOINTS-ANUNCIO/////
+
+
+(3)
+
+PUBLICRAR ANUNCIO
+
+/POST         /anuncio/publicar
+
+request
+{
+    "nome": "",
+    "telefone": "",
+    "valor":1000,
+    "tipo":"",
+    "descrição":""
+}
+response
+{
+     "nome": "",
+    "telefone": "",
+    "valor":1000,
+    "tipo":"",
+    "descrição":""
+}
+
+(4)
+
+DELETAR ANUNCIO
+
+/DELETE       /anuncio/:id  
+response
+{
+
+}
+
+(5)
+
+ALTERAR ANUNCIO
+
+/PUT         /anuncio/:id
+{
+    "nome": "",
+    "telefone": "",
+    "valor":1000,
+    "tipo":"",
+    "descrição":""
+}
+response
+{
+     "nome": "",
+    "telefone": "",
+    "valor":1000,
+    "tipo":"",
+    "descrição":""
+}
+
+/GET        /anuncio/buscar
+request
+{
+    "nome":""
+}
+response
+{
+    "nome": "",
+    "telefone": "",
+    "valor":1000,
+    "tipo":"",
+    "descrição":""
+}
+

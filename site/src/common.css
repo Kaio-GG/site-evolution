@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "fonte1";
+    src: url(/public/assets/font/font1/NovaFlat-Regular.ttf);
+}
+
+
+
+body{
+    margin: 0px;
+}
